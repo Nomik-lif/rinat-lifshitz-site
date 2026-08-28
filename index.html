@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>רינת ליפשיץ | טיפולי עיסוי לנשים בבנימינה</title>
+<meta name="description" content="קליניקה פרטית לנשים בבנימינה - עיסוי שוודי, אבנים חמות, שיאצו, כוסות רוח וטיפול לנשים בהריון">
+<style>
+  :root{
+    --bg:#faf6f2;
+    --bg-alt:#f0e6dc;
+    --text:#3a2e28;
+    --muted:#7a6a5f;
+    --accent:#a97455;
+    --accent-dark:#7d5238;
+    --white:#ffffff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:'Segoe UI', Arial, sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.7;
+  }
+  a{color:inherit;text-decoration:none;}
+  header{
+    position:sticky;top:0;z-index:10;
+    background:rgba(250,246,242,0.95);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid #e6d9cc;
+  }
+  .nav{
+    max-width:1100px;margin:0 auto;
+    display:flex;justify-content:space-between;align-items:center;
+    padding:16px 24px;
+  }
+  .logo{font-size:1.4rem;font-weight:700;color:var(--accent-dark);letter-spacing:.5px;}
+  .nav ul{list-style:none;display:flex;gap:28px;}
+  .nav ul a{font-size:.95rem;color:var(--text);transition:color .2s;}
+  .nav ul a:hover{color:var(--accent);}
+  .hero{
+    text-align:center;
+    padding:100px 24px 90px;
+    background:linear-gradient(180deg,var(--bg) 0%,var(--bg-alt) 100%);
+  }
+  .hero h1{
+    font-size:2.6rem;
+    color:var(--accent-dark);
+    margin-bottom:16px;
+    font-weight:700;
+  }
+  .hero p{
+    font-size:1.15rem;
+    color:var(--muted);
+    max-width:600px;
+    margin:0 auto 32px;
+  }
+  .btn{
+    display:inline-block;
+    background:var(--accent);
+    color:#fff;
+    padding:14px 36px;
+    border-radius:30px;
+    font-size:1rem;
+    font-weight:600;
+    transition:background .2s, transform .2s;
+  }
+  .btn:hover{background:var(--accent-dark);transform:translateY(-2px);}
+  section{padding:80px 24px;max-width:1100px;margin:0 auto;}
+  section h2{
+    text-align:center;
+    font-size:2rem;
+    color:var(--accent-dark);
+    margin-bottom:12px;
+  }
+  .section-sub{text-align:center;color:var(--muted);margin-bottom:48px;font-size:1.05rem;}
+  .services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:28px;
+  }
+  .card{
+    background:var(--white);
+    border-radius:16px;
+    padding:32px 24px;
+    text-align:center;
+    box-shadow:0 6px 20px rgba(122,90,63,0.08);
+    transition:transform .2s, box-shadow .2s;
+  }
+  .card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(122,90,63,0.15);}
+  .card .icon{font-size:2.4rem;margin-bottom:16px;display:block;}
+  .card h3{font-size:1.2rem;margin-bottom:10px;color:var(--accent-dark);}
+  .card p{color:var(--muted);font-size:.95rem;}
+  .about{
+    background:var(--bg-alt);
+    border-radius:24px;
+    padding:56px 40px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:40px;
+    align-items:center;
+  }
+  .about .about-text{flex:1;min-width:280px;}
+  .about .about-badge{
+    flex:0 0 220px;
+    background:var(--white);
+    border-radius:16px;
+    padding:32px 20px;
+    text-align:center;
+    box-shadow:0 6px 20px rgba(122,90,63,0.1);
+  }
+  .about .about-badge .emoji{font-size:3rem;}
+  .about h2{text-align:right;margin-bottom:20px;}
+  .about p{color:var(--muted);margin-bottom:14px;}
+  .location{
+    background:var(--white);
+    border-radius:16px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 6px 20px rgba(122,90,63,0.08);
+  }
+  .location .pin{font-size:2.5rem;margin-bottom:12px;display:block;}
+  footer{
+    background:var(--accent-dark);
+    color:#f5e9dd;
+    text-align:center;
+    padding:40px 24px;
+  }
+  footer .btn{background:#fff;color:var(--accent-dark);}
+  footer .btn:hover{background:var(--bg-alt);}
+  footer p{margin-top:20px;font-size:.85rem;opacity:.8;}
+  @media (max-width:640px){
+    .nav ul{display:none;}
+    .hero h1{font-size:2rem;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">רינת ליפשיץ</div>
+    <ul>
+      <li><a href="#services">טיפולים</a></li>
+      <li><a href="#about">אודות</a></li>
+      <li><a href="#location">הקליניקה</a></li>
+      <li><a href="#contact">יצירת קשר</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>עיסוי מקצועי לנשים, בקליניקה פרטית ושקטה בבנימינה</h1>
+  <p>רינת ליפשיץ מציעה מגוון טיפולי עיסוי מותאמים אישית לנשים בלבד — בסביבה אינטימית, מרגיעה ומקצועית.</p>
+  <a href="#contact" class="btn">קביעת תור</a>
+</section>
+
+<section id="services">
+  <h2>הטיפולים שלנו</h2>
+  <p class="section-sub">כל טיפול מותאם אישית לצרכים ולמצב הגוף שלך</p>
+  <div class="services">
+    <div class="card">
+      <span class="icon">🌿</span>
+      <h3>עיסוי שוודי</h3>
+      <p>עיסוי קלאסי ומרגיע המשחרר מתחים, משפר זרימת דם ומעניק תחושת רוגע מלאה.</p>
+    </div>
+    <div class="card">
+      <span class="icon">🔥</span>
+      <h3>אבנים חמות</h3>
+      <p>שילוב של אבני בזלת חמות המסייעות בהרפיית שרירים עמוקה ובשחרור מתחים כרוניים.</p>
+    </div>
+    <div class="card">
+      <span class="icon">🖐️</span>
+      <h3>שיאצו</h3>
+      <p>טכניקת עיסוי יפנית המבוססת על לחיצות אצבעות לאיזון אנרגטי ולהקלה על כאבים.</p>
+    </div>
+    <div class="card">
+      <span class="icon">💨</span>
+      <h3>כוסות רוח</h3>
+      <p>טיפול המשפר זרימת דם ולימפה, מסייע בהקלה על כאבי שרירים ותחושת כבדות.</p>
+    </div>
+    <div class="card">
+      <span class="icon">🤰</span>
+      <h3>טיפול לנשים בהריון</h3>
+      <p>עיסוי מותאם ובטוח לנשים בהריון, המסייע בהקלה על כאבי גב, נפיחות ומתח.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about">
+    <div class="about-badge">
+      <span class="emoji">👩‍⚕️</span>
+      <h3>רינת ליפשיץ</h3>
+      <p style="color:var(--muted);font-size:.9rem;margin-top:8px;">מטפלת מוסמכת</p>
+    </div>
+    <div class="about-text">
+      <h2>קצת עליי</h2>
+      <p>אני רינת ליפשיץ, מטפלת בעיסוי מוסמכת המתמחה בעיסוי שוודי, אבנים חמות, שיאצו, כוסות רוח וטיפול ייעודי לנשים בהריון.</p>
+      <p>הקליניקה שלי פרטית ומיועדת לנשים בלבד, ונמצאת בבנימינה — מקום שקט ואינטימי שבו תוכלי לנוח, להירגע ולקבל טיפול מותאם אישית בדיוק לצרכים שלך.</p>
+    </div>
+  </div>
+</section>
+
+<section id="location">
+  <h2>הקליניקה</h2>
+  <p class="section-sub">קליניקה פרטית לנשים בבנימינה</p>
+  <div class="location">
+    <span class="pin">📍</span>
+    <p><strong>בנימינה</strong> — הכתובת המדויקת תימסר בעת קביעת התור, לשמירה על פרטיות המטופלות.</p>
+  </div>
+</section>
+
+<footer id="contact">
+  <h2 style="color:#fff;">רוצה לקבוע תור?</h2>
+  <p style="opacity:.9;margin:12px 0 24px;">מוזמנת ליצור קשר לתיאום טיפול אישי</p>
+  <a href="tel:+972000000000" class="btn">התקשרי עכשיו</a>
+  <p>© רינת ליפשיץ — כל הזכויות שמורות</p>
+</footer>
+
+</body>
+</html>
